@@ -1,29 +1,35 @@
-# Welcome {.unnumbered}
+# Bienvenue {.unnumbered}
 
-This is the website for the 2nd edition of **"R for Data Science"**.
-This book will teach you how to do data science with R: You'll learn how to get your data into R, get it into the most useful structure, transform it and visualize.
+Ce site est la traduction française de la seconde édition de "**R for Data Science**" (R4DS : R pour la science des données) par Hadley Wickhame, Mine Çetinkaya-Rundel et Garrett Grolemund.
+Cet ouvrage vous apprendra les rudiments de la science des données avec R.
+Vous apprendrez à utiliser vos données dans R afin de les structurer de manière optimale, de les transformer et de les visualiser.
 
-In this book, you will find a practicum of skills for data science.
-Just as a chemist learns how to clean test tubes and stock a lab, you'll learn how to clean data and draw plots---and many other things besides.
-These are the skills that allow data science to happen, and here you will find the best practices for doing each of these things with R.
-You'll learn how to use the grammar of graphics, literate programming, and reproducible research to save time.
-You'll also learn how to manage cognitive resources to facilitate discoveries when wrangling, visualizing, and exploring data.
+Dans ce livre, vous trouverez un recueil de compétences pratiques pour la science des données.
+Tout comme un chimiste apprend à nettoyer des éprouvettes et à approvisionner un laboratoire, vous apprendrez à nettoyer des données et à réaliser des graphiques — et bien d'autres choses encore.
+Il s'agit des compétences qui permettent à la science des données de se concrétiser, et ici, vous découvrirez les meilleures pratiques pour chacune de ces tâches avec R.
+Vous apprendrez à manier la grammaire des graphiques, à écrire des programmes lisibles et à réaliser des manipulations reproductibles afin de gagner du temps.
+Vous apprendrez également à structurer votre pensées afin de faciliter la manipulation, la visualisation et l'exploration des données.
 
-This website is and will always be free, licensed under the [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/us/) License.
-If you'd like a physical copy of the book, you can order it on [Amazon](https://www.amazon.com/dp/1492097403?&tag=hadlwick-20).
-If you appreciate reading the book for free and would like to give back, please make a donation to [Kākāpō Recovery](https://www.doc.govt.nz/kakapo-donate): the [kākāpō](https://www.youtube.com/watch?v=9T1vfsHYiKY) (which appears on the cover of R4DS) is a critically endangered parrot native to New Zealand; there are only 248 left.
+Ce site est et sera toujours gratuit sous licence [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/us/).
+Si vous appréciez cet ouvrage gratuit et que vous souhaitez faire une don afin de remercier ses auteurs, vous pouvez la faire à l'association [Kākāpō Recovery](https://www.doc.govt.nz/kakapo-donate): le [kākāpō](https://www.youtube.com/watch?v=9T1vfsHYiKY) (présent sur la couverture de l'édition anglaise de R4DS) est une espèce de perroquets endémique en Nouvelle-Zélande.
+Il s'agit d'une espèce en danger critique d'extinction dont il ne reste que 248 individus.
 
-If you speak another language, you might be interested in the freely available translations of the 1st edition:
+## Note de la traductrice
 
--   [Spanish](http://es.r4ds.hadley.nz)
--   [Italian](https://it.r4ds.hadley.nz)
--   [Turkish](https://tr.r4ds.hadley.nz)
+Cette traduction a été réalisée bénévolement et sur son temps libre par Alba Maiques.
+Si elle essaie de se rapprocher au mieux des mots des auteurs originaux, certaines expression ou formulation ont dûes être modiifiées afin de faciliter leur compréhension en français.
+Par conséquence, elle peut présenter quelques déviation de l'oeuvre originale critiquable ou quelques coquilles.
+Auquel cas, vous êtes invité·e à faire remonter sur le [GitHub du projet](https://github.com/AlbaMqs/r4ds-french).
 
-You can find suggested answers to exercises in the book at <https://mine-cetinkaya-rundel.github.io/r4ds-solutions>.
+Une version physique payante de l'édition anglaise de cette ouvrage est disponible sur [Amazon](http://amzn.to/2aHLAQ1).
+Celle-ci ainsi que d'autres traduction de la première édition peuvent être trouvées sur le site :
 
-Please note that R4DS uses a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
-By contributing to this book, you agree to abide by its terms.
+-   [Anglais (2nd éd.)](http://r4ds.hadley.nz)
+-   [Espagnol (1ere éd.)](http://es.r4ds.hadley.nz)
+-   [Italien (1ere éd.)](https://it.r4ds.hadley.nz)
+-   [Turc (1ere éd.)](https://tr.r4ds.hadley.nz)
 
-## Acknowledgements {.unnumbered}
+Vous pourrez également trouver des suggestions de réponses aux exercices sur le site <https://mine-cetinkaya-rundel.github.io/r4ds-solutions> (en anglais).
 
-R4DS is hosted by <https://www.netlify.com> as part of their support of open source software and communities.
+Notez que R4DS se conforme au [Contributor Code of Conduct](#0).
+En contribuant à cet ouvrage, vous devez également vous conformer à ses conditions.
