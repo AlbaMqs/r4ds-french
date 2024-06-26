@@ -16,23 +16,23 @@ options(
   pillar.max_footer_lines = 2,
   pillar.min_chars = 15,
   stringr.view_n = 6,
-  # Temporarily deactivate cli output for quarto
+  # Désactivation temporaire des sorties en ligne de commande pour quarto
   cli.num_colors = 0,
   cli.hyperlink = FALSE,
   pillar.bold = TRUE,
-  width = 77 # 80 - 3 for #> comment
+  width = 77 # 80 - 3 pour #> commentaire
 )
 
 ggplot2::theme_set(ggplot2::theme_gray(12))
 
-# use results: "asis" when setting a status for a chapter
+# Utiliser la sortie en "asis" quand on configure le statut d'un chapitre
 status <- function(type) {
   status <- switch(type,
-    polishing = "should be readable but is currently undergoing final polishing",
-    restructuring = "is undergoing heavy restructuring and may be confusing or incomplete",
-    drafting = "is currently a dumping ground for ideas, and we don't recommend reading it",
-    complete = "is largely complete and just needs final proof reading",
-    stop("Invalid `type`", call. = FALSE)
+    polishing = "peut être lu, mais il lui manque encore quelques finitions",
+    restructuring = "est en cours de restructuraction et peut sembler confus ou incomplet",
+    drafting = "est un brouillon, nous vous recommandons de ne pas en tenir compte",
+    complete = "est complet et ne nécessite qu'une relecture finale",
+    stop("`type` invalide", call. = FALSE)
   )
 
   class <- switch(type,
@@ -46,9 +46,9 @@ status <- function(type) {
     "\n",
     ":::: status\n",
     "::: callout-", class, " \n",
-    "You are reading the work-in-progress second edition of R for Data Science. ",
-    "This chapter ", status, ". ",
-    "You can find the complete first edition at <https://r4ds.had.co.nz>.\n",
+    "Vous lisez la version de travail de la deuxieme édition de R pour la science des données.",
+    "Ce chapitre ", status, ". ",
+    "Vous pouvez trouver la première édition complète (en anglais) sur <https://r4ds.had.co.nz>.\n",
     ":::\n",
     "::::\n"
   ))
